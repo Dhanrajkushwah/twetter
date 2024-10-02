@@ -82,7 +82,7 @@ textarea {
 
 /* Tweet List Styling */
 .tweet-list .tweet-item {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eee !important;
   padding: 15px 0;
 }
 

@@ -23,10 +23,10 @@
     <div *ngFor="let tweet of tweets">
       <mat-card class="mt-2">
         <mat-card-header>
-          <mat-card-title>{{ tweet.author?.username }}</mat-card-title>
+          <mat-card-title style="color:black !important;">{{ tweet.author?.username }}</mat-card-title>
         </mat-card-header>
         <mat-card-content>
-          <p>{{ tweet.content }}</p>
+          <p style="color:black !important;">{{ tweet.content }}</p>
           <div class="media-container">
             <img *ngIf="tweet.mediaUrl" [src]="tweet.mediaUrl" alt="Media" class="responsive-media" />
             <video *ngIf="tweet.mediaUrl && tweet.mediaUrl.endsWith('.mp4')" controls class="responsive-media">
