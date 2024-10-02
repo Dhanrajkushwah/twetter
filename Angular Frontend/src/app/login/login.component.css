@@ -76,12 +76,12 @@ button {
   font-size: 16px;
   border-radius: 25px;
   transition: background-color 0.3s ease;
-  background-color: #1a91da;
+  background-color: #1a91da !important;
 }
 
 /* Sign up with Apple button */
 .apple-button {
-  background-color: white; /* Black background for Apple button */
+  background-color: white !important; /* Black background for Apple button */
   color: black;
   margin-bottom: 10px;
   border:  1px #333;
@@ -93,8 +93,8 @@ button {
 
 /* Sign in button with black background and white text */
 .sign-in-button {
-  background-color: black;
-  color: white;
+  background-color: black !important;
+  color: white !important;
   border: 0 solid black;
 }
 

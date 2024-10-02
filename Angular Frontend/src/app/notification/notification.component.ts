@@ -4,7 +4,7 @@ import { SocketService } from '../socket.service';
 @Component({
   selector: 'app-notification',
   templateUrl: './notification.component.html',
-  styleUrl: './notification.component.css'
+  styleUrls: ['./notification.component.css']
 })
 export class NotificationComponent {
   notifications: any[] = [];
